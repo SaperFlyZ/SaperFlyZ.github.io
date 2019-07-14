@@ -1,0 +1,557 @@
+<!Doctype html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+<meta name="yandex-verification" content="4066b489883cd539" />
+	<title>Компьютерный сервис/HELP_COPM</title>
+	<link rel="icon" href="favicon.png" type="image/png">
+	<link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/magnific-popup.js"></script>
+	<script src="contactform/contactform.js"></script>
+<script type="text/javascript" src="./obr.js"></script>
+</head>
+<style type="text/css">
+
+	#wrap{
+		display: none;
+		opacity: 0.8;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+		background-color: rgba(1, 1, 1, 0.725);
+		z-index: 100;
+		overflow: auto;
+	}
+
+	#window{
+		width: 400px;
+		height: 400px;
+		margin: 150px auto;
+		display: none;
+		background: #fff;
+		z-index: 200;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+	}
+
+	.close{
+		margin-left: 364px;
+		margin-top: 4px;
+		cursor: pointer;
+	}
+
+</style>
+<body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(54092023, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/54092023" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+	<script type="text/javascript">
+
+				//Функция показа
+		function show(state){
+
+				document.getElementById('window').style.display = state;
+				document.getElementById('wrap').style.display = state;
+		}
+
+	</script>
+	<!-- Задний прозрачный фон-->
+	<div onclick="show('none')" id="wrap"></div>
+<div id="window">
+							 <!-- Картинка крестика-->
+					<img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+					<h2>ВВЕДИТЕ ВАШ НОМЕР</h2>
+					<p style="text-align:center;">и мы вам перезвоним через несколько минут<br> для консультации</p>
+					<form style="margin:0 auto;
+					max-width:100%;
+					box-sizing:border-box;
+					padding:10px;
+					border-radius:5px;
+					background:RGBA(255,255,255,1);
+					-webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+					box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);" enctype="multipart/form-data" method="post" id="form2">
+					<input placeholder="Ваш номер телефона" name="number" type="text"class="textbox" >
+					<input value="Уточнить" type="submit" class="button">
+					</form>
+				</div>
+	<header class="header" id="header">
+		<!--header-start-->
+		<div class="container">
+		<!--	<figure class="logo animated fadeInDown delay-07s">
+				<a href="#"><img src="img/" alt=""></a>
+			</figure>-->
+			<h1 class="animated fadeInDown delay-07s"><i>Welcome To IT Saper service</i></h1>
+			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Продолжить..</a>
+		</div>
+	</header>
+	<!--header-end-->
+
+	<nav class="main-nav-outer" id="test">
+		<!--main-nav-start-->
+		<div class="container">
+			<ul class="main-nav">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#service">Цены</a></li>
+				<li><a href="#Portfolio">Наши преимущества</a></li>
+				<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
+				<li><a href="#client">Вопрос-ответ</a></li>
+				<li><a href="#contact">Записаться на диагностику</li>
+			</ul>
+			<a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
+		</div>
+	</nav>
+	<!--main-nav-end-->
+
+
+
+	<section class="main-section" id="service">
+		<!--main-section-start-->
+
+		<div class="container">
+
+			<h2>ПОНЯТНЫЕ И ПРОЗРАЧНЫЕ ЦЕНЫ</h2>
+			<h6>Цены зависят от модели компьютера или ноутбука.<br>
+           Найдите нужную услугу в списке ниже и узнайте точную стоимость ремонта.</h6>
+					 <input id="btn1"class="bot1" type="button" value="РЕМОНТ НОУТБУКА">
+			 		<input id="btn2" class="bot1" type="button" value="РЕМОНТ КОМПЬЮТЕРА">
+			<div  id="about" class="row">
+				<table  border="1" width="100%" cellpadding="5">
+					<tr>
+						<th><b>Поломка:</b></th>
+						<th><b>Цена:</b></th>
+						<tr>
+							<th>Выезд мастера</th>
+							<th>БЕСПЛАТНО</th>
+							<tr>
+								<th>Диагностика неисправностей</th>
+								<th>БЕСПЛАТНО</th>
+								<tr>
+									<th>Проблемы с включением</th>
+									<th><button class="myButton" onclick="show('block')">Уточнить стоимость</button></th>
+									<tr>
+										<th>Установка Windows всех версий (XP, 7, 8, 10)</th>
+										<th>От 450 руб.</th>
+										<tr>
+											<th>Ускорение и оптимизация</th>
+											<th><button class="myButton" onclick="show('block')">Уточнить стоимость</button></th>
+											<tr>
+												<th>Чистка системного блока от пыли</th>
+												<th>от 490 руб.</th>
+												<tr>
+														<th>Удаление вирусов</th>
+														<th>От 310 руб.</th>
+														<tr>
+															<th>Установка оперативной памяти</th>
+															<th>От 195 руб.</th>
+															<tr>
+																<th>Замена блока питания</th>
+																<th>От 195 руб.</th>
+																<tr>
+																		<th>Восстановление и сохранение данных</th>
+																		<th>От 470 руб.</th>
+																		<tr>
+																			<th>Замена жесткого диска</th>
+																			<th>От 195 руб. + деталь</th>
+																			<tr>
+																				<th>Установка программ</th>
+																				<th>От 320 руб.</th>
+																				<tr>
+																					<th>Настройка Интернета</th>
+																					<th>От 480 руб</th>
+																					<tr>
+																						<th>Настройка Wi-Fi</th>
+																						<th>От 490 руб.</th>
+																						<tr>
+																							<th>Установка антивируса</th>
+																							<th>От 390 руб.</th>
+																							<tr>
+																								<th>Замена видеокарты</th>
+																								<th>От 390 + деталь</th>
+																								 <tr>
+																									 <th>Замена материнской платы</th>
+																									 <th>От 595 + деталь</th>
+																									 <tr>
+																										 <th>Замена кулера</th>
+																										 <th>От 195 + деталь</th>
+																										 <tr>
+																								<th>Сборка нового ПК</th>
+																								<th><button  class="myButton" onclick="show('block')">Уточнить стоимость</button></th>
+			         </table>
+
+			</div>
+		</div>
+	</section>
+	<script>
+			 $(document).ready(function(){
+
+					 $('#btn1').click(function(){
+							 $.ajax({
+									 url: "notebook.html",
+									 cache: false,
+									 success: function(html){
+											 $("#about").html(html);
+									 }
+							 });
+					 });
+
+					 $('#btn2').click(function(){
+							 $.ajax({
+									 url: "computer.html",
+									 cache: false,
+									 success: function(html){
+											 $("#about").html(html);
+									 }
+							 });
+					 });
+
+			 });
+	 </script>
+	<!--main-section-end-->
+	<section class="main-section paddind" id="Portfolio">
+		<!--main-section-start-->
+		<div class="container">
+			<h2>3 ВАЖНЫХ МОМЕНТА:</h2>
+<p class = "select_one"><b>Вам не нужно ехать в сервис.<br>
+Мастер приедет к Вам на дом!</b></p>
+<p><i>Оставьте заявку или позвоните нам. В течении 1 часа (или когда Вам будет удобно) наш мастер приедет к Вам на дом со всем<br> необходимым
+оборудованием для ремонта. В среднем (при не критичных поломках), ремонт занимает до 2-х часов.</i></p>
+
+<p class = "select_one"><b>Диагностика и выезд мастера бесплатны.<br></b></p>
+<p><i>Мастер проведет диагностику компьютера, чтобы определить неисправность, после чего посчитает точную стоимость ее устранения.
+Вы имеете полное право отказаться от ремонта, если вас что-то не устроит. Мы прекрасно понимаем, что иногда поломка оказывается <br>серьезнее,
+чем предполагалось и человек не готов оплатить всю сумму сразу.</i></p>
+
+<p class = "select_one"><b>Если проблему не удается устранить на дому,<br>
+мы бесплатно доставим компьютер в сервис.</b></p>
+<p><i>Иногда бывают сложные поломки, которые устранить на дому не представляется возможным или устранение неисправности занимает больше времени.
+В таком случае, мы бесплатно отвезем компьютер в наш сервис, устраним неисправность и привезем его Вам обратно!</i></p>
+		 </div>
+	 </div>
+	</section>
+	<!--main-section-end-->
+
+
+	<section class="main-section client-part" id="client">
+		<!--main-section client-part-start-->
+		<div class="container">
+			<details>
+	            <summary class="select_two">Мне нужно к вам выезжать?</summary>
+	            <p class="select_tri">Нет. Мы работаем с выездом на собственном транспорте.<br>
+	              Мы сами приедем в любое удобное для Вас время на дом, в офис или другое указанное место</p>
+	          </details>
+	          <details>
+	            <summary class="select_two">Можно ли вызвать мастера на вечер?</summary>
+	            <p class="select_tri">Да, конечно! Наши мастера выезжают на заявки с 10:00 до 22:00 без выходных.<br>
+	              Заявки принимаются круглосуточно.</p>
+	          </details>
+	          <details>
+	            <summary class="select_two">Выезд бесплатный?</summary>
+	            <p class="select_tri">Да. Выезд полностью бесплатный, даже при отказе от ремонта.</p>
+	          </details>
+	          <details>
+	            <summary class="select_two">Мои данные не сотрутся после ремонта?</summary>
+	            <p class="select_tri">Нет. Данные будут в сохранности. <br>
+	              Перед началом ремонта, мы сделаем резервную копию всех данных на внешний жесткий диск.</p>
+	          </details>
+	          <details>
+	            <summary class="select_two">У вас будут нужные запчасти для ремонта?</summary>
+	            <p class="select_tri">Все детали мы сами закупаем у официальных поставщиков. <br>
+	              В случае необходимости, Вы их получите без рыночной наценки и со всеми гарантийными листами. <br>
+
+	              Еще на этапе консультации по телефону, мы уточняем, что случилось с компьютером <br>
+	              и на основании этого берем необходимое количество деталей для устранения возможной проблемы. <br>
+
+	              У нас еще не было случаев, чтобы мы не смогли найти нужную деталь.</p>
+	          </details>
+	          <details>
+	            <summary class="select_two">Может быть таке, что после ремонта вы говорите цену<br> выше чем указана на сайте?</summary>
+	            <p class="select_tri">Такого почти никогда не бывает! <br>
+	              Вы по телефону озвучиваете свою проблему и мастер называет Вам предварительную стоимость ремонта. <br>
+
+	              Бывает так, что по телефону нельзя установить причину проблемы. <br>
+	              Например, компьютер может не включаться из-за сбоя в программном обеспечении или из-за выхода из строя детали. <br>
+	              В таком случае, точную причину можно озвучить только после бесплатной диагностики.
+
+	              Мастер обязательно согласовывает с клиентом стоимость перед ремонтом. Если клиент не согласен со стоимостью, <br>
+	              он имеет полное право отказаться от ремонта.</p>
+	          </details>
+	          <details>
+	            <summary class="select_two">Сколько действует гарантия?</summary>
+	            <p class="select_tri">Гарантия 1 год на устранение неисправности комплектующих и 180 дней на настройку программного обеспечения. <br>
+	              В течение этого времени у нас действует бесплатная поддержка.</p>
+	          </details>
+	</section>
+
+	<div class="container">
+		<section class="main-section contact" id="contact">
+
+			<div class="row">
+				<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+					<div class="contact-info-box address clearfix">
+						<h3><i class=" icon-map-marker"></i>Адрес:</h3>
+						<span>г.Симферополь.</span>
+					</div>
+					<div class="contact-info-box phone clearfix">
+						<h3><i class="fa fa-phone"></i>Телефон:</h3>
+						<span>+7 (978) 054 50 86</span>
+					</div>
+					<div class="contact-info-box email clearfix">
+						<h3><i class="fa fa-pencil"></i>email:</h3>
+						<span>saperwin71@gmail.com</span>
+					</div>
+					<div class="contact-info-box hours clearfix">
+						<h3><i class="fa fa-clock-o"></i>Время работы:</h3>
+						<span><strong>Ежедневно:</strong> с 10:00 - 22:00</span>
+					</div>
+					<ul class="social-link">
+						<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+					<div class="form">
+
+						<div id="sendmessage">Your message has been sent. Thank you!</div>
+						<div id="errormessage"></div>
+						<style>form{
+           margin:0 auto;
+           max-width:55%;
+           box-sizing:border-box;
+           padding:10px;
+           border-radius:5px;
+           background:RGBA(255,255,255,1);
+           -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+           box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+         }
+         .textbox{
+           height:50px;
+           width:100%;
+           border-radius:3px;
+           border:rgba(0,0,0,.3) 2px solid;
+           box-sizing:border-box;
+           font-family: 'Open Sans', sans-serif;
+           font-size:18px;
+           padding:10px;
+           margin-bottom:30px;
+         }
+         .message:focus,
+         .textbox:focus{
+           outline:none;
+            border:rgba(24,149,215,1) 2px solid;
+            color:rgba(24,149,215,1);
+         }
+         /* Стили текстового поля */
+         .message{
+             background: rgba(255, 255, 255, 0.4);
+             width:100%;
+             height: 120px;
+             border:rgba(0,0,0,.3) 2px solid;
+             box-sizing:border-box;
+             -moz-border-radius: 3px;
+             font-size:18px;
+             font-family: 'Open Sans', sans-serif;
+             -webkit-border-radius: 3px;
+             border-radius: 3px;
+             display:block;
+             padding:10px;
+             margin-bottom:30px;
+             overflow:hidden;
+         }
+         .button{
+           height:50px;
+           width:100%;
+           border-radius:3px;
+           border:rgba(0,0,0,.3) 0px solid;
+           box-sizing:border-box;
+           padding:10px;
+           background:#90c843;
+           color:#FFF;
+           font-family: 'Open Sans', sans-serif;
+           font-weight:400;
+           font-size: 16pt;
+           transition:background .4s;
+           cursor:pointer;
+         }
+         /* Изменение фона кнопки при наведении */
+         .button:hover{
+           background:#80b438;
+         }</style>
+						<form enctype="multipart/form-data" method="post" id="form">
+           <input placeholder="Ваше имя" name="name" type="text"class="textbox" >
+           <input placeholder="Ваш номер телефона" name="number" type="text"class="textbox" >
+           <input value="Отправить" type="submit" class="button">
+         </form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
+			<span class="copyright">&copy; SaperCorp.</span>
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+
+			$('#test').scrollToFixed();
+			$('.res-nav_click').click(function() {
+				$('.main-nav').slideToggle();
+				return false
+
+			});
+
+      $('.Portfolio-box').magnificPopup({
+        delegate: 'a',
+        type: 'image'
+      });
+
+		});
+
+	</script>
+
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+	</script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+			$('.main-nav li a, .servicelink').bind('click', function(event) {
+				var $anchor = $(this);
+
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top - 102
+				}, 1500, 'easeInOutExpo');
+				/*
+				if you don't want to use the easing effects:
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1000);
+				*/
+				if ($(window).width() < 768) {
+					$('.main-nav').hide();
+				}
+				event.preventDefault();
+			});
+		})
+	</script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+
+			var $container = $('.portfolioContainer'),
+				$body = $('body'),
+				colW = 375,
+				columns = null;
+
+
+			$container.isotope({
+				// disable window resizing
+				resizable: true,
+				masonry: {
+					columnWidth: colW
+				}
+			});
+
+			$(window).smartresize(function() {
+				// check if columns has changed
+				var currentColumns = Math.floor(($body.width() - 30) / colW);
+				if (currentColumns !== columns) {
+					// set new column count
+					columns = currentColumns;
+					// apply width to container manually, then trigger relayout
+					$container.width(columns * colW)
+						.isotope('reLayout');
+				}
+
+			}).smartresize(); // trigger resize to set container width
+			$('.portfolioFilter a').click(function() {
+				$('.portfolioFilter .current').removeClass('current');
+				$(this).addClass('current');
+
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+
+					filter: selector,
+				});
+				return false;
+			});
+
+		});
+	</script>
+$(function(){
+  'use strict';
+$('#form2').on('submit', function(e){
+    e.preventDefault();
+    var fd = new FormData( this );
+    $.ajax({
+      url: 'send.php',
+      type: 'POST',
+      contentType: false,
+      processData: false,
+      data: fd,
+      success: function(msg){
+if(msg == 'ok') {
+  alert('Отправлено')
+} else {
+  alert('Ошибка')
+}
+      }
+    });
+  });
+});
+
+</body>
+
+</html>
